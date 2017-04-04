@@ -70,11 +70,49 @@ p {
 .nak-content .nak-content-top a.email { font-size: 2rem; text-decoration: none; color: #EF6C00; }
 .nak-content .nak-content-top p { font-size: 2rem; text-align: left; }
 
+.nak-post-container {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+.nak-post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nak-post-list li {
+    padding: 15px 0;
+    border-bottom: #ddd solid 1px;
+}
+
+.nak-post-list .nak-post-link {
+    color: #333;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.nak-post-list .nak-post-right-item {
+    color: #ccc;
+    float: right;
+    font-size: 14px;
+}
+
 .white-box {
     margin: 10px 0 20px 0;
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
+}
+
+.white-box-title {
+    border-bottom: #EF6C00 solid 1px;
+    color: #EF6C00;
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 48px;
+    width: 100%;
 }
 
 @media (max-width: 1050px) {
