@@ -1,5 +1,4 @@
 import React from 'react';
-import '../stylesheets/_Face.scss';
 
 class Face extends React.Component {
     render() {
