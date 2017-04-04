@@ -15,16 +15,21 @@ module.exports = {
     devtool: '#inline-source-map',
 
     module: {
-            loaders: [
-                {
-                    test: /\.js$/,
-                    loader: 'babel-loader',
-                    exclude: /node_modules/,
-                    query: {
-                        cacheDirectory: true,
-                        presets: ['es2015', 'react']
-                    }
+        loaders: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    cacheDirectory: true,
+                    presets: ['es2015', 'react']
                 }
-            ]
-        }
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                loaders: ['style-loader', 'css-loader', 'sass-loader']
+            }
+        ]
+    }
 };

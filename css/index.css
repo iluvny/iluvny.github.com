@@ -29,40 +29,6 @@ p {
     font-weight: bold;
 }
 
-.nak-header .nak-face-wrapper {
-    background: url('../images/home.svg') center center no-repeat #fff;
-    background-size: 50px 50px;
-    border: 12px #fff solid;
-    border-radius: 50%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    margin-bottom: -140px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.nak-header .nak-face-wrapper:hover {
-    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
-    transition: 0.3s;
-}
-
-.nak-header .nak-face-wrapper img {
-    object-fit: none;
-    object-position: center;
-    height: 176px;
-    width: 176px;
-    border-radius: 50%;
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.nak-header .nak-face-wrapper img:hover {
-    opacity: 0.7;
-    transition: 0.3s;
-}
-
 .nak-content {
     margin: 30px auto;
     width: 980px;

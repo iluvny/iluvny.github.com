@@ -19,14 +19,14 @@ class Header extends React.Component {
                             <NavItem href="#2">Sample</NavItem>
                         </Nav>
                         <Nav pullRight>
-                            <NavItem href="#3">GitHub</NavItem>
+                            <NavItem href="https://github.com/iluvny/iluvny.github.com">GitHub</NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
                 <div className="nak-title-wrapper">
                     <a className="nak-title" href="#">{ this.props.title }</a>
                 </div>
-                <Face/>
+                <Face image="images/face.jpg" hoverImage="images/home.svg"/>
             </div>
         );
     }
