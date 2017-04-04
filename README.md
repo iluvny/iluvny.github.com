@@ -1,37 +1,6 @@
+[![DeepScan Grade](https://deepscan.io/api/projects/80/branches/97/badge/grade.svg)](https://deepscan.io/dashboard/#view=project&pid=80&bid=97)
+
 ## Welcome to Nak GitHub Page!
 
-You can use the [editor on GitHub](https://github.com/iluvny/iluvny.github.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iluvny/iluvny.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+안녕하세요. Web이 재밌는 개발자 Nak입니다. 이 페이지는 ECMAScript 6와 React를 활용하여 만들었습니다.
+Javascript 정적분석기인 **DeepScan**을 활용하고 있습니다. DeepScan의 자세한 내용은 [여기](https://deepscan.io)에서 확인해주세요.
