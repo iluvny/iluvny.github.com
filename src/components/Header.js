@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import Face from './Face';
 
 class Header extends React.Component {
@@ -17,7 +17,9 @@ class Header extends React.Component {
                     <Navbar.Collapse>
                         <Nav>
                             <NavItem eventKey={1} href="#">Blog</NavItem>
-                            <NavItem eventKey={2} href="#">Sample</NavItem>
+                            <NavDropdown eventKey={2} title="Tutorials" id="nak-tutorial-dropdown">
+                                <MenuItem eventKey={2.1} href="/react-tutorials/counter">Counter</MenuItem>
+                            </NavDropdown>
                         </Nav>
                         <Nav pullRight>
                             <NavItem eventKey={1} href="https://github.com/iluvny/iluvny.github.com">GitHub</NavItem>
@@ -27,7 +29,9 @@ class Header extends React.Component {
                 <div className="nak-title-wrapper">
                     <a className="nak-title" href="#">{ this.props.title }</a>
                 </div>
-                <Face image="images/face.jpg" hoverImage="images/home.svg" />
+                {
+                    this.props.showFace ? <Face image="images/face.jpg" hoverImage="images/home.svg" /> : ''
+                }
             </div>
         );
     }
