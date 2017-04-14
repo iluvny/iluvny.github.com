@@ -1,4 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
+var propTypes = {
+    /**
+     * URL of hover image
+     */
+    hoverImage: PropTypes.string,
+
+    /**
+     * link address
+     */
+    link: PropTypes.string,
+
+    /**
+     * URL of image
+     */
+    image: PropTypes.string
+}
 
 class Face extends React.Component {
     render() {
@@ -16,6 +34,8 @@ class Face extends React.Component {
         );
     }
 }
+
+Face.propTypes = propTypes;
 
 Face.defaultProps = {
     link: '#'

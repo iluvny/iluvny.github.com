@@ -5,6 +5,8 @@ import Face from './Face';
 class Header extends React.Component {
 
     render() {
+        let tutorialURL = '/react-tutorials';
+
         return (
             <div className="nak-header">
                 <Navbar inverse>
@@ -18,7 +20,7 @@ class Header extends React.Component {
                         <Nav>
                             <NavItem eventKey={1} href="#">Blog</NavItem>
                             <NavDropdown eventKey={2} title="Tutorials" id="nak-tutorial-dropdown">
-                                <MenuItem eventKey={2.1} href="/react-tutorials/counter">Counter</MenuItem>
+                                <MenuItem eventKey={2.1} href={ `${tutorialURL}/counter` }>Counter</MenuItem>
                             </NavDropdown>
                         </Nav>
                         <Nav pullRight>
@@ -30,7 +32,7 @@ class Header extends React.Component {
                     <a className="nak-title" href="#">{ this.props.title }</a>
                 </div>
                 {
-                    this.props.showFace ? <Face image="images/face.jpg" hoverImage="images/home.svg" /> : ''
+                    this.props.showFace ? <Face image="images/face.jpg" hoverImage="images/home.svg" link="#"/> : ''
                 }
             </div>
         );
