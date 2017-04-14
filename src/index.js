@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/Header';
 import Content from './components/Content';
+import ParallaxSample from './components/ParallaxSample'
 
 class App extends React.Component {
 
@@ -21,6 +22,9 @@ class App extends React.Component {
         if (!hash) {
             state.showFace = true;
             state.body = <Content />;
+        } else if (hash === 'react-parallax') {
+            state.showFace = false;
+            state.body = <ParallaxSample />
         } else {
             state.showFace = false;
             state.body = <div>{ hash }</div>;

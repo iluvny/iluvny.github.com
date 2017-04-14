@@ -6,11 +6,13 @@ class Content extends React.Component {
     render() {
         let mailto = `mailto:${email}`;
         let posts = [{
-            title: 'Test Post',
-            date: 'Mar 03, 2017'
+            title: 'React Parallax',
+            date: 'Mar 03, 2017',
+            link: '#react-parallax'
         }, {
             title: 'Test Post2',
-            date: 'Mar 04, 2017'
+            date: 'Mar 04, 2017',
+            link: '#'
         }];
 
         return (
@@ -28,7 +30,7 @@ class Content extends React.Component {
                                     return (
                                         <li key={ i }>
                                             <span className="nak-post-right-item">{ post.date }</span>
-                                            <a className="nak-post-link" href="#">{ post.title }</a>
+                                            <a className="nak-post-link" href={ post.link }>{ post.title }</a>
                                         </li>
                                     );
                                 })

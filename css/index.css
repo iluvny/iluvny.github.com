@@ -13,7 +13,7 @@ p {
     background-image: url('../images/bg_02.jpg');
     height: 100%;
     opacity: 0.5;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: -1;
 }
@@ -68,7 +68,7 @@ p {
 
 .nak-content .nak-content-top { text-align: center; padding: 120px 30px 30px; }
 .nak-content .nak-content-top a.email { font-size: 2rem; text-decoration: none; color: #EF6C00; }
-.nak-content .nak-content-top p { font-size: 2rem; text-align: left; }
+.nak-content p { font-size: 2rem; text-align: left; }
 
 .nak-post-container {
     padding: 20px;
